@@ -1,0 +1,32 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     spreadsheet_app
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _DisplayGradeSheet, symObjAddr: 0x0, symBinAddr: 0x10000190C, symSize: 0x264 }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _sortchoice, symObjAddr: 0xAE8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x69, size: 0x8, addend: 0x0, symName: _DisplayGradeSheet, symObjAddr: 0x0, symBinAddr: 0x10000190C, symSize: 0x264 }
+  - { offset: 0xB7, size: 0x8, addend: 0x0, symName: _SetSortColumnChoice, symObjAddr: 0x274, symBinAddr: 0x100001B80, symSize: 0xB8 }
+  - { offset: 0xDB, size: 0x8, addend: 0x0, symName: _DisplayMenu, symObjAddr: 0x32C, symBinAddr: 0x100001C38, symSize: 0x94 }
+  - { offset: 0xF0, size: 0x8, addend: 0x0, symName: _ColumnOptionDisplay, symObjAddr: 0x3C0, symBinAddr: 0x100001CCC, symSize: 0x64 }
+  - { offset: 0x114, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x424, symBinAddr: 0x100001D30, symSize: 0x6A4 }
+  - { offset: 0x295, size: 0x8, addend: 0x0, symName: _LoadsStudentFile, symObjAddr: 0x0, symBinAddr: 0x1000023F4, symSize: 0x2E8 }
+  - { offset: 0x35D, size: 0x8, addend: 0x0, symName: _LoadsStudentFile, symObjAddr: 0x0, symBinAddr: 0x1000023F4, symSize: 0x2E8 }
+  - { offset: 0x3DF, size: 0x8, addend: 0x0, symName: _ChangeStudentID, symObjAddr: 0x2E8, symBinAddr: 0x1000026DC, symSize: 0x164 }
+  - { offset: 0x465, size: 0x8, addend: 0x0, symName: _ChangeStudentExamGrade, symObjAddr: 0x44C, symBinAddr: 0x100002840, symSize: 0x1D8 }
+  - { offset: 0x4EB, size: 0x8, addend: 0x0, symName: _removeStudent, symObjAddr: 0x624, symBinAddr: 0x100002A18, symSize: 0x168 }
+  - { offset: 0x7A2, size: 0x8, addend: 0x0, symName: _compareByID, symObjAddr: 0x0, symBinAddr: 0x100002B80, symSize: 0x38 }
+  - { offset: 0x7BB, size: 0x8, addend: 0x0, symName: _A, symObjAddr: 0x18C, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offset: 0x7D7, size: 0x8, addend: 0x0, symName: _B, symObjAddr: 0x190, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offset: 0x7EC, size: 0x8, addend: 0x0, symName: _C, symObjAddr: 0x194, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offset: 0x801, size: 0x8, addend: 0x0, symName: _D, symObjAddr: 0x198, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offset: 0x816, size: 0x8, addend: 0x0, symName: _F, symObjAddr: 0x19C, symBinAddr: 0x100008014, symSize: 0x0 }
+  - { offset: 0x8D2, size: 0x8, addend: 0x0, symName: _compareByID, symObjAddr: 0x0, symBinAddr: 0x100002B80, symSize: 0x38 }
+  - { offset: 0x924, size: 0x8, addend: 0x0, symName: _compareByLastName, symObjAddr: 0x38, symBinAddr: 0x100002BB8, symSize: 0x44 }
+  - { offset: 0x976, size: 0x8, addend: 0x0, symName: _compareByTotalGrade, symObjAddr: 0x7C, symBinAddr: 0x100002BFC, symSize: 0x88 }
+  - { offset: 0x9C8, size: 0x8, addend: 0x0, symName: _CompareByExamGrade, symObjAddr: 0x104, symBinAddr: 0x100002C84, symSize: 0x88 }
+  - { offset: 0xA46, size: 0x8, addend: 0x0, symName: _calculateGrade, symObjAddr: 0x0, symBinAddr: 0x100002D0C, symSize: 0x1D4 }
+  - { offset: 0xA6D, size: 0x8, addend: 0x0, symName: _calculateGrade, symObjAddr: 0x0, symBinAddr: 0x100002D0C, symSize: 0x1D4 }
+  - { offset: 0xABB, size: 0x8, addend: 0x0, symName: _AssignLetterGrade, symObjAddr: 0x1D4, symBinAddr: 0x100002EE0, symSize: 0xF0 }
+  - { offset: 0xAED, size: 0x8, addend: 0x0, symName: _histogram, symObjAddr: 0x2C4, symBinAddr: 0x100002FD0, symSize: 0x29C }
+  - { offset: 0xC0D, size: 0x8, addend: 0x0, symName: _UpdateGradeMapping, symObjAddr: 0x578, symBinAddr: 0x100003284, symSize: 0x4F0 }
+...
